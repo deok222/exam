@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  height: 100vh;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1e0e62;
+}
+
+.inner {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 90px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.text h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1e0e62;
+}
+
+.text p {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+}
+
+.box_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.box:nth-child(n + 4):nth-child(-n + 6) {
+  margin-bottom: initial;
+}
+
+.photo {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.info a {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.info a > p {
+  letter-spacing: 5px;
+}
+
+.info a:hover {
+  text-decoration: underline;
+  color: inherit;
+}

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c4c4c4;
+}
+
+footer {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 104px 214px 144px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1e0e62;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1170px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.wrapper {
+  display: flex;
+  gap: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info .social {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.info a {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info .social a {
+  font-size: 18px;
+}
+
+.info p {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* 우측 */
+.menu {
+  display: flex;
+  gap: 87px;
+}
+
+.menu > li > a {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu li ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

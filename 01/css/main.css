@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.menu_03 {
+  background-color: #2f1893;
+  color: #fff;
+}
+
+body {
+  background-color: #c4c4c4;
+  color: #1e0e62;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* 첫번째 메뉴 */
+
+header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.sign a {
+  font-weight: 500;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: #482be7;
+  border-radius: 100px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn_02 {
+  width: 100px;
+  height: 40px;
+  background-color: #e93a7d;
+  border-radius: 100px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+/* 두번째 메뉴 */
+
+.nav_02 {
+  display: flex;
+  align-items: center;
+  margin: 0 295px 0 90px;
+  gap: 37px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.social a {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nav_02 li a > i {
+  margin-right: 10px;
+}

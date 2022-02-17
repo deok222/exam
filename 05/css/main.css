@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff;
+}
+
+.inner {
+  width: 770px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e0e62;
+}
+
+/* TOP */
+.top {
+  background-color: #2f1893;
+  padding: 100px 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 157px;
+}
+
+.text h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.text p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.info {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.info .selfie {
+  width: 100px;
+  height: 100px;
+  background: url(../images/Mask.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info_text p {
+  color: #fff;
+}
+
+.info_text b {
+  letter-spacing: 3px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social a {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Main */
+.main {
+  padding: 69px 0 130px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 첫번째 */
+.branding h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1e0e62;
+  margin-bottom: 26px;
+}
+
+.branding p {
+  margin-bottom: 32px;
+}
+
+/* 두번째 */
+.perfect_photo {
+  margin-bottom: 55px;
+}
+
+.perfect h3 {
+  margin: 29px 0 15px;
+}
+
+.perfect p {
+  margin-bottom: 47px;
+}
+
+.perfect_photo p {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.photo {
+  width: 770px;
+  height: 430px;
+  background: url(../images/photo.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* 세번째 */
+
+.report h3 {
+  margin-bottom: 13px;
+}
+
+.appeal {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  padding: 42px 28px;
+}
+
+.appeal h4 {
+  font-size: 18px;
+  color: #1e0e62;
+}
